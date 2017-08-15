@@ -2,11 +2,7 @@
 
 package keyring
 
-import (
-	"encoding/json"
-
-	"github.com/aulanov/go.dbus"
-)
+import "encoding/json"
 
 const (
 	DBUS_SERVICE_NAME = "org.kde.kwalletd"
